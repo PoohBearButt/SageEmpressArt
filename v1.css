@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@400;700&display=swap');
+/*
+v1
+blue-green colour set
+sky refelection: #74B3CE
+pacific cyan: #508991
+deep space blue: #172A3A
+dark teal: #004346
+mint leaf: #09BC8A
+
+v2
+warm-pink colour set
+coffee bean: #130303
+rich mahogany: #2D080A
+chestnut: #7C3626
+pumpkin spice: #F5853F
+almond silk: #FFCDBC
+*/
+body{
+    background-color: #74B3CE;
+}
+main{
+    padding: 20px
+}
+
+h1{
+    font-family: 'PT Sans Caption', sans-serif;
+    font-weight: 900;
+    color: #004346;
+}
+h2{
+    font-family: 'PT Sans Caption', sans-serif;
+    font-weight: 700;
+    color: #004346;
+}
+h3{
+    font-family: 'PT Sans Caption', sans-serif;
+    font-weight: 600;
+    color:#004346;
+}
+h4{
+    font-family: 'PT Sans Caption', sans-serif;
+    font-weight: 500;
+    font-weight: bold;
+    color: #004346;
+}
+p{
+    font-family: 'PT Sans Caption', sans-serif;
+    font-weight: 400;
+    color: #172A3A;
+}
+
+li > a{
+    color:#508991;
+    text-decoration: none;
+    font-family: 'PT Sans Caption', sans-serif;
+    font-weight: 600;
+    margin: 5px;
+    padding: 5px;
+}
+
+a:hover{
+    background-color: #09BC8A;
+    color: #004346;
+    padding: 5px;
+    
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+.book-on-fire{
+    max-width: 100%;
+    height: auto;
+}
+.comic-mc{
+    max-width: 100%;
+    height: auto;
+}
+.comic-spirit{
+    max-width: 100%;
+    height: auto;
+}
+.comic-supp{
+    max-width: 100%;
+    height: auto;
+}
+.demon-lady{
+max-width: 100%;
+    height: auto;
+}
+.red-hair{
+    max-width: 100%;
+    height: auto;
+}
+
+.sample{
+    max-width: 100%;
+    height: auto;
+}
+.sett{
+    max-width: 100%;
+    height: auto;
+}
+.thresh{
+    max-width: 100%;
+    height: auto;
+}

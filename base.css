@@ -1,7 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@400;700&display=swap');
+/*blue-green colour set
+sky refelection: #74B3CE
+pacific cyan: #508991
+deep space blue: #172A3A
+dark teal: #004346
+mint leaf: #09BC8A
 
+warm-pink colour set
+coffee bean: #130303
+rich mahogany: #2D080A
+chestnut: #7C3626
+pumpkin spice: #F5853F
+almond silk: #FFCDBC
+*/
 body{
-    background-color:bisque;
+    background-color: #004346;
 }
 main{
     padding: 20px

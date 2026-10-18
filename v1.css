@@ -71,10 +71,11 @@ ul{
     list-style-type: none;
     padding: 0;
 }
-img{
+/*img{
     max-width: 100%;
     height: auto;
-}
+}*/
+
 .gallery-container{
     position: relative;
     display: fle;
@@ -99,16 +100,15 @@ img{
     height: 720px;
     overflow-y: auto;
     overscroll-behavior-x: contain;
-    scroll-snap-tyoe: x mandatory;
+    scroll-snap-type: x mandatory;
     scrollbar-width: none;
-
 }
 
 .pictures img {
     width: 540px;
     object-fit: contain;
 }
-
+/*
 .pictures::-webkit-scrollbar{
     display: none;
-}
+}*/

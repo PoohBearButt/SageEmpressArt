@@ -76,6 +76,13 @@ ul{
     height: auto;
 }*/
 
+/*@media screen and (max-width: 450px) {
+
+}
+
+@media screen and (max-width: 1032)
+*/
+
 .gallery-container{
     position: relative;
     display: fle;
@@ -95,7 +102,7 @@ ul{
     display: grid;
     grid-auto-flow: column;
     gap: 1rem;
-    width: 540px;
+    width: auto;
     padding: 0 0.25rem;
     height: 720px;
     overflow-y: auto;
@@ -104,11 +111,15 @@ ul{
     scrollbar-width: none;
 }
 
+.pictures > section {
+    scroll-snap-align: start;
+}
+
 .pictures img {
     width: 540px;
     object-fit: contain;
 }
-/*
+
 .pictures::-webkit-scrollbar{
     display: none;
-}*/
+}

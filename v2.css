@@ -17,7 +17,7 @@ pumpkin spice: #F5853F
 almond silk: #FFCDBC
 */
 body{
-    background-color: #004346;
+    background-color: #F5853F;
 }
 main{
     padding: 20px
@@ -26,38 +26,45 @@ main{
 h1{
     font-family: 'PT Sans Caption', sans-serif;
     font-weight: 900;
+    color:  #7C3626;
 }
 h2{
     font-family: 'PT Sans Caption', sans-serif;
     font-weight: 700;
+    color:  #7C3626;
 }
 h3{
     font-family: 'PT Sans Caption', sans-serif;
     font-weight: 600;
+    color:  #7C3626;
 }
 h4{
     font-family: 'PT Sans Caption', sans-serif;
     font-weight: 500;
     font-weight: bold;
+    color:  #7C3626;
 }
 p{
     font-family: 'PT Sans Caption', sans-serif;
     font-weight: 400;
+    color:  #130303
 }
 
+li{
+    margin: 10px;
+}
 li > a{
-    color:aqua;
+    color: #FFCDBC;
     text-decoration: none;
     font-family: 'PT Sans Caption', sans-serif;
+    padding: 10px;
+}
 
+a:hover{
+    background-color:#130303;
 }
 
 ul{
     list-style-type: none;
     padding: 0;
 }
-
-#
-#
-#
-#

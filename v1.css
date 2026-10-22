@@ -85,7 +85,7 @@ ul{
 
 .gallery-container{
     position: relative;
-    display: fle;
+    display: flex;
     justify-content: center;
 }
 

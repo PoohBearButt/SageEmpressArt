@@ -4,31 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact page</title>
+    <link rel="stylesheet" href="v1.css">
 </head>
 <body>
-    <head>
-        <nav>
-            <ul>
-                <li><a href="index.html"></a>Version 1</li>
-                <li><a href="index2.html"></a>Version 2</li>
-                <li><a href="gallery.html"></a>gallery</li>
-                <li><a href="contact.html"></a>Contact</li>
-            </ul>
-        </nav>
-    </head>
-    <main>
+    <nav>
+        <ul>
+            <li><a href="index.html">Version 1</a></li>
+            <li><a href="index2.html">Version 2</a></li>
+            <li><a href="gallery.html">gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <header>
         <h4>
             Please feel free to contact me by email for commissions. 
             If you want to do some collaborations I'd also be interested.
             I look forward to hearing from you. 
         </h4>
+    </header>
+    <main>
+        
         <section>
             <form>
-                <label>First Name</label><br>
-                <input type="text"><br>
-                <label></label><br>
-                <input>
-
+                <label for="fname">First Name</label><br>
+                <input type="text" id="fname" name="fname"><br>
+                <label for="lname">Last Name</label><br>
+                <input type="text" id="lname" name="lname"><br>
+                <label type="email">email</label><br>
+                <input type="text" id="email" name="email"><br>
+                <label for="emailbody">Message (I will get back to you as soon as possible)</label><br>
+                <input type="text" id="message" name="message"> <br>
+                <!--<input type="submit" value="Submit">-->
+                <button class="button" type="button"> SUBMIT</button>
             </form>
         </section>
     </main>

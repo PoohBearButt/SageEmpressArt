@@ -52,7 +52,20 @@ p{
 
 li{
     margin: 10px;
+    display:block;
+    transition-duration: 0.5s;
 }
+
+li:hover {
+    cursor: pointer;
+}
+
+ul li ul{
+    visibility: hidden;
+    opacity:0;
+    
+}
+
 li > a{
     color: #FFCDBC;
     text-decoration: none;

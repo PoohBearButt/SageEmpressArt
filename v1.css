@@ -32,28 +32,28 @@ main{
 h1{
     font-family:'grenze', cursive;
     font-weight: 900;
-    color: white;
+    color: #fbf7f4;
 }
 h2{
     font-family:'libre baskerville', serif;
     font-weight: 700;
-    color: white;
+    color: #fbf7f4;
 }
 h3{
     font-family:'libre baskerville', serif;
     font-weight: 600;
-    color:white;
+    color: #fbf7f4;
 }
 h4{
     font-family:'libre baskerville', serif;
     font-weight: 500;
     font-weight: bold;
-    color: white;
+    color: #fbf7f4;
 }
 p{
 font-family:'libre baskerville', serif;
     font-weight: 400;
-    color: white;
+    color: #fbf7f4;
 }
 nav{
 }
@@ -67,13 +67,13 @@ li > a{
     color:#FFCC33;
     text-decoration: none;
     font-family: 'PT Sans Caption', sans-serif;
-    font-weight: 600;
-    padding: 15px;
+    font-weight: 900;
+    padding: 10px;
 }
 
 a:hover{
-    background-color: #09BC8A;
-    color: #004346;    
+    background-color: #FFCC33;
+    color: #104f55;    
 }
 
 ul{
@@ -125,12 +125,12 @@ img{
     width: 8px;
     height: 8px;
     cursor: pointer;
-    background-color: #aaa;
+    background-color: #32746d;
     border-radius: 100%;
 }
 
 .thumbnails section.highlighted{
-    background-color: green;
+    background-color: #fbf7f4;
 }
 
 .pictures {
@@ -171,12 +171,12 @@ label{
 input{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 400;
-    color: #172A3A;
+    color: #104f55;
     margin: 0px 10px 10px 10px;
 }
 .button{
-    background-color: #172A3A;
-    color: #74B3CE;
+    background-color: #104f55;
+    color: #9ec5ab;
     border:none;
     margin: 5px;
     padding: 5px;

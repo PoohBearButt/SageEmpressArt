@@ -1,4 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Felipa&family=PT+Sans+Caption:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Germania+One&:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grenze:ital,wght@0,100..900;1,100..900');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400..700;1,400..700');
 /*
 v1
 blue-green colour set
@@ -17,37 +23,37 @@ pumpkin spice: #F5853F
 almond silk: #FFCDBC
 */
 body{
-    background-color: #74B3CE;
+    background-color: #011502;
 }
 main{
     padding: 20px
 }
 
 h1{
-    font-family: 'PT Sans Caption', sans-serif;
+    font-family:'grenze', cursive;
     font-weight: 900;
-    color: #004346;
+    color: white;
 }
 h2{
-    font-family: 'PT Sans Caption', sans-serif;
+    font-family:'libre baskerville', serif;
     font-weight: 700;
-    color: #004346;
+    color: white;
 }
 h3{
-    font-family: 'PT Sans Caption', sans-serif;
+    font-family:'libre baskerville', serif;
     font-weight: 600;
-    color:#004346;
+    color:white;
 }
 h4{
-    font-family: 'PT Sans Caption', sans-serif;
+    font-family:'libre baskerville', serif;
     font-weight: 500;
     font-weight: bold;
-    color: #004346;
+    color: white;
 }
 p{
-    font-family: 'PT Sans Caption', sans-serif;
+font-family:'libre baskerville', serif;
     font-weight: 400;
-    color: #172A3A;
+    color: white;
 }
 nav{
 }
@@ -58,11 +64,11 @@ li{
 }
 
 li > a{
-    color:#508991;
+    color:#FFCC33;
     text-decoration: none;
     font-family: 'PT Sans Caption', sans-serif;
     font-weight: 600;
-    padding: 10px;
+    padding: 15px;
 }
 
 a:hover{

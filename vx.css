@@ -41,9 +41,6 @@ font-family:'libre baskerville', serif;
     color: #fbf7f4;
 }
 
-nav {
-
-}
 
 li{
     margin: 10px;
@@ -57,20 +54,15 @@ a:hover{
     background-color: #ffcc33;
     color: #fbf7f4;
 }
-
+/*
 ul{
     list-style-type: none;
     padding: 0;
     display: flex;
     flex-direction: row;
 }
+*/
 
-ul {
-    list-style-type: none;
-    padding: 0;
-    display: flex;
-    flex-direction: row;
-}
 
 .dropdown {
     position: relative;
@@ -96,7 +88,7 @@ img{
 @media screen and (max-width: 1032)
 */
 
-
+/*scrolling gallery css below*/
 .gallery-container{
     position: relative;
     display: flex;
@@ -178,7 +170,7 @@ input{
     font-style: oblique;
 }
 
-/*copied and pasted from v2 css*/
+/*copied and pasted from v2 css, menu links*/
 li{
     margin: 10px;
     display:block;

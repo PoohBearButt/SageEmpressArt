@@ -1,0 +1,42 @@
+/* colors that sage chose
+#fbf7f4
+#ffcc33
+#011502
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400..700;1,400..700');
+
+body{
+    background-color: #011502;
+}
+main{
+    padding: 20px
+}
+
+h1{
+    font-family:'grenze', cursive;
+    font-weight: 900;
+    color: #fbf7f4;
+}
+h2{
+    font-family:'libre baskerville', serif;
+    font-weight: 700;
+    color: #fbf7f4;
+}
+h3{
+    font-family:'libre baskerville', serif;
+    font-weight: 600;
+    color: #fbf7f4;
+}
+h4{
+    font-family:'libre baskerville', serif;
+    font-weight: 500;
+    font-weight: bold;
+    color: #fbf7f4;
+}
+p{
+font-family:'libre baskerville', serif;
+    font-weight: 400;
+    color: #fbf7f4;
+}
